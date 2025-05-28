@@ -46,9 +46,10 @@
     <section>
       <h2>Compare Texts Below</h2>
       <p>Paste the original and modified text in the boxes and click 'Compare'.</p>
-      <textarea placeholder="Original Text"></textarea>
-      <textarea placeholder="Modified Text"></textarea>
-      <button>Compare</button>
+      <textarea id="originalText" placeholder="Original Text"></textarea>
+      <textarea id="modifiedText" placeholder="Modified Text"></textarea>
+      <button id="compareButton">Compare</button>
+      <div id="diffOutput"></div>
     </section>
     <section>
       <h2>Why Use Our Text Comparison Tool?</h2>
@@ -69,5 +70,6 @@
   <footer>
     <p>&copy; 2025 Your Name | Built with ❤️ using HTML/CSS</p>
   </footer>
+  <script src="script.js" defer></script>
 </body>
 </html>

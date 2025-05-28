@@ -35,3 +35,31 @@ button {
 button:hover {
   background-color: #2980b9;
 }
+
+#diffOutput {
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  min-height: 100px; /* Or as appropriate */
+  white-space: pre-wrap; /* To preserve line breaks and spaces */
+  font-family: monospace; /* Often good for diffs */
+}
+
+.diff-added {
+  background-color: #e6ffed;
+  color: #246834;
+  display: block;
+}
+
+.diff-removed {
+  background-color: #ffeef0;
+  color: #b32d3a;
+  display: block;
+}
+
+.diff-common {
+  background-color: #f7f7f7;
+  color: #333;
+  display: block;
+}
